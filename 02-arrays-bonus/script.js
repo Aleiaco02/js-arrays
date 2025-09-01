@@ -48,10 +48,15 @@ let secondNum = prompt("inserisci il secondo numero");
 if (firstNum > secondNum) {
   alert("il numero maggiore è: " + firstNum);
   console.log("il numero maggiore è: ", firstNum);
-  
 }
+
 else if (secondNum > firstNum) {
   alert("il numero maggiore è: " + secondNum);
   console.log("il numero maggiore è: ", secondNum);
+}
 
+else if (firstNum = secondNum) {
+  alert(firstNum + " e " + secondNum + " " + "sono uguali");
+  console.log(firstNum + " e " + secondNum + " " + "sono uguali");
+  
 }
