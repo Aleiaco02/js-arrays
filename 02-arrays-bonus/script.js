@@ -41,3 +41,17 @@ console.log(isFabioPresent)
 // 5. Unisci tutti gli insegnanti nell'array teachers in una stringa  separata da virgole e salvala nella variabile teachersString
 const teachersString = teachers.toString();
 console.log(teachersString);
+
+// 6 L’utente inserisce due numeri in successione, con due prompt. Il software stampa il maggiore
+let firstNum = prompt("inserisci il primo numero");
+let secondNum = prompt("inserisci il secondo numero");
+if (firstNum > secondNum) {
+  alert("il numero maggiore è: " + firstNum);
+  console.log("il numero maggiore è: ", firstNum);
+  
+}
+else if (secondNum > firstNum) {
+  alert("il numero maggiore è: " + secondNum);
+  console.log("il numero maggiore è: ", secondNum);
+
+}
